@@ -1,5 +1,4 @@
 # DevOps_career
-This repository is created to improve my career path
 
 This project resolves all requirement from roadmap:
 https://roadmap.sh/projects/server-stats?fl=0

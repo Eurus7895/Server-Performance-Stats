@@ -20,7 +20,7 @@ get_disk_usage(){
 }
 
 get_top5_cpu_processes(){
-	ps -eo pid,user,pcpu,pmem,comm --sort=-pcpu | head -n 6 | awk '{printf "%s\t%s\n", $4, $5}'		
+	ps -eo pid,user,pcpu,pmem,comm --sort=-pcpu | head -n 6 | awk '{printf "%s\t%s\n", $3, $5}'		
 }
 
 get_top5_mem_processes(){
